@@ -1,3 +1,5 @@
+const fs = require("fs");
+
 const input = fs.readFileSync("03.12.2023.txt").toString();
 
 const RGX = /[^\.\d\n]/;

@@ -1,3 +1,5 @@
+const fs = require("fs");
+
 const input = fs.readFileSync("02.12.2023.txt").toString();
 
 // 12 red cubes, 13 green cubes, and 14 blue cubes.
